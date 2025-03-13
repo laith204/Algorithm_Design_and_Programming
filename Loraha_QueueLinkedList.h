@@ -52,39 +52,3 @@ class MyQueueLinkedListType {
 };
 
 #endif
-
-/*
-int main(){
-    MyQueueLinkedListType<int>* stack = new MyQueueLinkedListType<int>();
-
-    stack->enqueue(1);
-    cout << stack->front() << endl;
-    stack->enqueue(2);
-    cout << stack->front() << endl;
-    stack->enqueue(3);
-    cout << stack->front() << endl;
-    cout << stack->is_empty() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << stack->front() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << stack->is_empty() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << stack->is_empty() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    cout << "Deque: " << stack->deque() << endl;
-    cout << stack->is_empty() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    stack->enqueue(1);
-    cout << stack->front() << endl;
-    cout << stack->is_empty() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-
-
-    cout << "THIS WAS QUEUE LINKED LIST" << endl;
-    return 0;
-}
-    */

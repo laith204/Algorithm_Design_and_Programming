@@ -52,33 +52,3 @@ class MyStackLinkedListType {
 };
 
 #endif
-
-
-/*
-int main(){
-    MyStackLinkedListType<int>* stack = new MyStackLinkedListType<int>();
-
-    stack->push(1);
-    cout << stack->top() << endl;
-    stack->push(2);
-    cout << stack->top() << endl;
-    stack->push(3);
-    cout << "SIZE: " << stack->size() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->top() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    cout << stack->pop() << endl;
-
-    cout << stack->is_empty() << endl;
-
-    cout << stack->pop() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->size() << endl;
-
-
-
-    cout << "THIS WAS LINKED LIST STACK" << endl;
-    return 0;
-}
-    */

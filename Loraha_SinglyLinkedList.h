@@ -73,23 +73,3 @@ class SinglyLinkedList{
 };
 
 #endif
-/*
-int main(){
-    LinkedList* list = new LinkedList();
-    list->addNodeTop(1);
-    list->addNodeTop(2);
-    list->addNodeTop(3);
-    list->addNodeBottom(4);
-    list->addNodeBottom(5);
-    list->addNodeBottom(6);
-    list->printList();
-    //list->removeNodeTop(list->getHead());
-    list->printList();
-   // list->removeNodeBottom(list->getTail());
-    list->printList();
-
-    cout << "Here: " << list->getData(list->getHead()->next) << endl;
-    cout << "Here: " << list->getData(list->getTail()) << " " << list->getData(list->getTail()->previous) << endl;
-    return 0;
-}
-*/

@@ -69,27 +69,3 @@ class MyStackArrayType{
 };
 
 #endif
-
-/*
-int main(){
-    MyStackArrayType<int>* stack = new MyStackArrayType<int>();
-    stack->push(1);
-    cout << stack->top() << endl;
-    stack->push(2);
-    cout << stack->top() << endl;
-    stack->push(3);
-    cout << "SIZE: " << stack->size() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->top() << endl;
-    cout << "SIZE: " << stack->size() << endl;
-    cout << stack->pop() << endl;
-
-    cout << stack->is_empty() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->pop() << endl;
-    cout << stack->size() << endl;
-
-    cout << "THIS WAS ARRAY STACK" << endl;
-    return 0;
-}*/
